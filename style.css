@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.header img {
+    display: flex;
+    height: 100px;
+    border-radius: 30px;
+    top: 10px;
+    margin-right: 20px;
+    left: 50px;
+
+}
+
+.header a {
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    top: 10px;
+    right: 200px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #fb39c4;
+    font-size: 24px;
+    transition: 0.s ease-in-out;
+}
+
+.logo1_marcia {
+    display: flex;
+    width: 250px;
+    border-radius: 40px;
+    margin-top: 20px;
+
+}
+
+.logo_marcia_revendedora {
+    height: 500px;
+    border-radius: 75px;
+    align-items: center;
+}
+
+.caixa-principal {
+    width: 50%;
+
+}
+
+.caixa-video-marcia {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.mascara-video {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7)50%, rgba(10, 12, 16, 0.99) 85%);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+h1 {
+    color: #fb39c4;
+    margin: 10px;
+    font-size: 28px;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+p {
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    background: #fb39c4;
+    border: 4px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #fff;
+    color: #fb39c4;
+    font-size: 22px;
+    transition: 0.2s ease-in-out;
+}
+
+.fale-conosco {
+    background: #fff;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -320px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    transition: left 1s linear;
+    z-index: 4;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding-left: 10px;
+    outline-color: #fb39c4;
+}
+
+textarea {
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    outline-color: #fb39c4;
+}
+
+.mascara-form {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7)50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+
+}
+
+/* Média query
+max -> valor menor que N px, aplica o css do MEDIA
+min -> valor maior que N px, aplica o css do MEDIA
+*/
+
+@media(max-width: 770px) {
+
+    p {
+        display: none;
+    }
+
+    h1 {}
+
+    .body {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;       
+
+    }
+
+.caixa-principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo_marcia_revendedora {
+    width: 80vw;
+    height: auto;
+}
+
+.header {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    display: none;
+}
+
+.header a {
+    font-size: 20px;
+  
+}
+
+}
