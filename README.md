@@ -2,9 +2,10 @@
 <br>
 <br>
 <h2>Esse foi um projeto desenvolvido no Code Master, trabalho de conclusão de curso, <a href="https://rodolfomori.com.br/devclub">Dev Club</a></h2>
-<br> <img src="https://github.com/mggsistema/Perfumes-e-Cosmeticos/blob/main/img/Projeto%20Responsivo.png?raw=true">
-<br> <img src="https://github.com/mggsistema/Perfumes-e-Cosmeticos/blob/main/imgs/Nossos%20Servi%C3%A7os.png?raw=true">
-<p>Para desenvolver este projeto foi usado:  
+<br><p> Projeto desenvolvido para uma pequena Empresa "Perfumes e Cosméticos" ela oferece seus produtos através de uma loja online, whatsapp, e outras redes sociais e faz a entrega domicíliar, Com tudo reunido acredita-se que ela aumente seus negócios, também reuniu-se aqui os links das empresas que ela revende, Da Avon, o Boticário, Natura e Mix Lar. </p>
+<br>Página principal<img src="https://github.com/mggsistema/Perfumes-e-Cosmeticos/blob/main/img/Projeto%20Responsivo.png?raw=true" alt="origin" width="500px">.
+<br> Página Nossos Serviços<img src="https://github.com/mggsistema/Perfumes-e-Cosmeticos/blob/main/imgs/Nossos%20Servi%C3%A7os.png?raw=true" alt="origin" width="500px">.
+<br><p>Para desenvolver este projeto foi usado:  
 <br> HTML que é uma linguagem de marcação, para fazer o esqueleto ou seja a base do trabalho.
 <br> Css Styles, para ajustar a beleza e a organização, bem como cores, tamanho de fonte, margem, ponteiro, etc., enfim a decoração total.  
 <br> Java-Script, é uma linguagem de programação, com a finalidade de fazer tudo entrar em funcionamento.
